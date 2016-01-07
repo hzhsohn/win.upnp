@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestUPnP", "upnp.vcproj", "{BF7D1214-446A-4687-B89B-9310B86D80F7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C80CAD2-E0AB-4BC5-B194-3C828E03F010} = {5C80CAD2-E0AB-4BC5-B194-3C828E03F010}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GCUPnP", "..\..\sdk\GCUPnP\GCUPnP.vcproj", "{5C80CAD2-E0AB-4BC5-B194-3C828E03F010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF7D1214-446A-4687-B89B-9310B86D80F7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF7D1214-446A-4687-B89B-9310B86D80F7}.Debug|Win32.Build.0 = Debug|Win32
+		{BF7D1214-446A-4687-B89B-9310B86D80F7}.Release|Win32.ActiveCfg = Release|Win32
+		{BF7D1214-446A-4687-B89B-9310B86D80F7}.Release|Win32.Build.0 = Release|Win32
+		{5C80CAD2-E0AB-4BC5-B194-3C828E03F010}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C80CAD2-E0AB-4BC5-B194-3C828E03F010}.Debug|Win32.Build.0 = Debug|Win32
+		{5C80CAD2-E0AB-4BC5-B194-3C828E03F010}.Release|Win32.ActiveCfg = Release|Win32
+		{5C80CAD2-E0AB-4BC5-B194-3C828E03F010}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
