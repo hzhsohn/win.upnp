@@ -2,10 +2,10 @@
 *.sdf
 *.ilk
 *.pdb
-*.pch
 *.tlog
 *.obj
 *.suo
+*.opensdf
 Thumbs.db
 .DS_Store
 
